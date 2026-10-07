@@ -140,6 +140,47 @@
 
     .details p + p { margin-top: 1em; }
 
+    .papers {
+      margin-top: 72px;
+    }
+
+    .paper-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 0;
+      display: grid;
+      gap: 18px;
+    }
+
+    .paper-item {
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .paper-item:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    .paper-meta {
+      color: var(--muted);
+      font: 600 12px/1.4 Arial, sans-serif;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .paper-title {
+      margin: 8px 0 6px;
+      font-size: 20px;
+      line-height: 1.45;
+    }
+
+    .paper-authors,
+    .paper-venue {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
     .photos { margin-top: 72px; }
 
     .photo-grid {
@@ -231,12 +272,23 @@
         <div>
           <h2>Personal interests</h2>
 <p>
-    Outside the lab, my reading habits are a bit all over the place. I just really enjoy a good story, whether that is the first part of <em>Don Quixote</em> or Asimov’s <em>Foundation</em> trilogy (I will gladly argue that the second book is the best one). My bedside table is pretty diverse: I read the Bible, and I also have a copy of the <em>I Ching</em> (Book of Changes). My specific copy has an interesting backstory—it was translated by a German Jesuit and then into Spanish—and yes, I actually toss the old Chinese coins to ask it questions whenever I can't make up my mind.
+    Outside the lab, my reading habits are a bit all over the place. I just really enjoy a good story, whether that is the first part of <em>Don Quixote</em> or Asimov’s <em>Foundation</em> trilogy (I will gladly argue that the second book is the best one). My bedside table is pretty diverse: I read the Bible, and I also have a copy of the <em>I Ching</em> (Book of Changes), and yes, I actually toss the old Chinese coins to ask it questions.
   </p>
   
   <p>
-    To balance out all that sitting down, I spend a lot of time weightlifting. I also managed to run a half marathon once, which served as a great reminder of why I usually prefer the gym.
-  </p>        </div>
+    To balance out all that sitting down, I also like to go to the gym to do some weightlifting and cardio. I also enjoy playing group sports, especially soccer and basketball.
+      </section>
+
+      <section class="papers" id="papers" aria-labelledby="papers-heading">
+        <h2 id="papers-heading">Papers</h2>
+        <ul class="paper-list">
+          <li class="paper-item">
+            <div class="paper-meta">Preprint</div>
+            <div class="paper-title"><a href="https://www.researchsquare.com/article/rs-10437555/v1" target="_blank" rel="noopener noreferrer">Global Constraint-Based Causal Structure Learning with Streaming Features</a></div>
+            <div class="paper-authors">Jose M. De Miguel, Concha Bielza, Pedro Larrañaga</div>
+            <div class="paper-venue">Research Square preprint; submitted to Data Mining and Knowledge Discovery, Springer Nature Link</div>
+          </li>
+        </ul>
       </section>
 
       <section class="photos" id="photos" aria-labelledby="photos-heading" hidden>
